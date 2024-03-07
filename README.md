@@ -1,9 +1,10 @@
 # 🌳내 마음의 정원
 <p align="center">
-<img width="292" alt="image 1 (1)" src="https://github.com/AYFG/Garden-of-my-heart/assets/88381607/1816b3e9-e410-4f22-9910-194088aab8ae"></p>
+<img width="292" alt="image 1 (1)" src="https://github.com/AYFG/Garden-of-my-heart/assets/88381607/130aa4ca-89f0-4178-803e-eda5cbb245be"></p>
 나만의 일기를 쓸 수 있는 페이지 내 마음의 정원입니다. 회원가입을 하고 오늘 어떤 일이 있었는지 적어보세요.
 
- ## [실행 링크](https://ayfg.github.io/Garden-of-my-heart)
+ ## [실행 링크](https://fir-react-app-eaf38.web.app)
+
 ```
 테스트 계정
 ID: woong@test.com
