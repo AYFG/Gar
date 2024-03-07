@@ -1,0 +1,123 @@
+/* 공통 */
+@font-face {
+  font-family: "Ownglyph_meetme-Rg";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_1@1.0/Ownglyph_meetme-Rg.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  font-family: Ownglyph_meetme-Rg;
+  margin: 0;
+  background-color: #c9dee0;
+}
+
+button {
+  border: 0;
+}
+
+button:not(:disabled) {
+  cursor: pointer;
+}
+
+.a11y-hidden {
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}
+
+/* a-button  */
+/* .btn-join,
+.btn-login,
+.btn-logout */
+[class^="btn"] {
+  display: inline-block;
+  padding: 1em 1em 1em 2.8em;
+  text-decoration: none;
+  color: #5a6a72;
+}
+
+.btn-join {
+  background: url(./images/icon-join.svg) no-repeat 0.8em center/ 2em;
+}
+
+.btn-login {
+  background: url(./images/icon-login.svg) no-repeat 0.8em center/ 2em;
+}
+
+.btn-logout {
+  background: url(./images/icon-logout.svg) no-repeat 0.8em center/ 2em;
+}
+
+.black-btn {
+  display: block;
+  width: 100%;
+  padding: 0;
+  background: #29360d;
+  color: white;
+  height: 48px;
+  border: 0;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.black-btn:disabled {
+  opacity: 0.2;
+}
+
+/* form */
+.label-style,
+.input-style {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.input-style {
+  border: none;
+  box-shadow: 0 2px 0 0 #ddd;
+  height: 48px;
+  transition: all 0.2s;
+  border-radius: 10px;
+  padding: 0 16px;
+  font-size: 16px;
+}
+
+.input-style:hover {
+  box-shadow: 0 2px 0 0 rgb(93, 121, 93);
+}
+
+.input-style:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgb(93, 121, 93);
+  border-radius: 4px;
+}
+
+.label-style {
+  font-size: 14px;
+  color: #29363d;
+  margin-bottom: 8px;
+}
+
+.weather-icon {
+  position: relative;
+  left: 280px;
+  bottom: -60px;
+}
+.header-wrap {
+  display: flex;
+  flex-direction: row;
+}

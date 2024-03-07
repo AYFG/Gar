@@ -1,0 +1,29 @@
+/* header */
+.header {
+  background-color: #fff;
+}
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.welcome_wrap {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.sign_wrap {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.logo {
+  width: 200px;
+}
+.header .max-width {
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  width: 156px;
+}
